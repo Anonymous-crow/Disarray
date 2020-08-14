@@ -1,6 +1,5 @@
 def Quit(current_mode): return 'Quit'
 def Add_New(current_mode): return 'Add_New'
-def Help(current_mode): return 'Help'
 def Menu(current_mode): return 'Menu'
 
 def pass_func(current_mode): return current_mode
@@ -24,6 +23,3 @@ def Add_New_func(Unsorted_Images, Current_Image, tkey, mouse):
         x += 1
     loc_Current_Image = Image(loc_Unsorted_Images[x], loc_Current_Image_dest, mouse.x, mouse.y)
     return [loc_Current_Image]
-
-def Help_func():
-    pass
